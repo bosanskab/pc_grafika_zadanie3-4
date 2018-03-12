@@ -294,9 +294,9 @@ void QtClass::transformacia_distancia(int d) {
 
 
 void QtClass::transformacia_sfera(int pocet_rovnobezky, int pocet_poludniky) {
-	double dr = M_PI / pocet_rovnobezky;
-	double dp = 2 * M_PI / pocet_poludniky;
-	double x,y, z;
+	float dr = M_PI / pocet_rovnobezky;
+	float dp = 2 * M_PI / pocet_poludniky;
+	float x,y, z;
 	newPoint.clear();
 
 	newPoint.push_back(QVector3D(0, 0, 100));
